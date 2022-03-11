@@ -1579,7 +1579,7 @@ animation: roundd 5s infinite;
         right: 0;
         height: 100%;
         float:right;
-        top: 0;
+        top: 60px;
         display: block;
         width: 300px;
         position:fixed;
