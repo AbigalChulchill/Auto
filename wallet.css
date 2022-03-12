@@ -498,6 +498,7 @@ body{
     font-size: 18px;
     color: white;
     margin-bottom: 0px;
+    text-align: center;
 }
 .header .container .middlepart button i{
     color: white;
@@ -1155,6 +1156,7 @@ animation: roundd 5s infinite;
         font-weight: 500;
         font-size: 17px;
         margin-top: 1rem;
+        text-align: center;
         
     }
     .header .container .middlepart button{

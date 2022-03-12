@@ -480,6 +480,7 @@ body{
     font-size: 17px;
     line-height: 1.3;
     margin-bottom: 25px;
+    text-align: center;
 }
 .header .container .middlepart button{
     background-color: var(--primary-color);
