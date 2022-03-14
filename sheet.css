@@ -594,9 +594,19 @@ body{
     width:100%;
     height: 300px;
     background-color: transparent;
+    margin: .5rem 0;
 }
 .body .container .topsection .topsection-container .heading .thecards .one p{
     font-size: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.body .container .topsection .topsection-container .heading .thecards .one i{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
 }
 
 .body .container .topsection .topsection-container .heading img{
@@ -610,6 +620,9 @@ body{
     text-align: center;
     margin: 1rem;
     text-transform: uppercase;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 
 }
 .body .container .topsection .topsection-container .heading .explore{
