@@ -8,7 +8,7 @@
     padding: 0;
 }
 :root{
-    --primary-color: #c60021;
+    --primary-color: #e56b1f;
     --green-color:#08833d;
     --blue-color:#0b0c10;
 }
@@ -462,7 +462,7 @@ body{
     text-transform: uppercase;
     text-align: center;
 }
-@keframes updown{
+@keyframes updown{
     0%{
         transform: translateY(12px);
     }
